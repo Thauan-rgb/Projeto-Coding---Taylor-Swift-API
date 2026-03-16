@@ -1,6 +1,6 @@
 # 🎵 Taylor Swift Random Music
 
-Um projeto web simples desenvolvido em **HTML, CSS e JavaScript** que consome dados de uma **API pública** para exibir músicas aleatórias da artista Taylor Swift.
+Um projeto web desenvolvido em **HTML, CSS e JavaScript** que consome dados de uma **API pública** para exibir músicas aleatórias da artista Taylor Swift.
 
 O objetivo do projeto é demonstrar o **consumo de API utilizando JavaScript**, manipulação de dados em **JSON** e exibição dinâmica dessas informações na interface do usuário, além da criação de um **layout responsivo com foco em dispositivos móveis**.
 
