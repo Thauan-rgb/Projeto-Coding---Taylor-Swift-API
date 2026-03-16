@@ -1,87 +1,94 @@
-# 🎵 Taylor Swift Random Music
+# Taylor Swift Random Song 🎵
 
-Um projeto web desenvolvido em **HTML, CSS e JavaScript** que consome dados de uma **API pública** para exibir músicas aleatórias da artista Taylor Swift.
+![Taylor Swift](img/banner.jpeg)
 
-O objetivo do projeto é demonstrar o **consumo de API utilizando JavaScript**, manipulação de dados em **JSON** e exibição dinâmica dessas informações na interface do usuário, além da criação de um **layout responsivo com foco em dispositivos móveis**.
+Um aplicativo web simples e responsivo que consome uma API pública para exibir músicas aleatórias da Taylor Swift. Desenvolvido como solução para o desafio de consumo de API.
 
----
+## 📱 Sobre o Projeto
 
-# 📱 Demonstração
+Este projeto foi desenvolvido como parte de um desafio individual de consumo de API. O app consome a [Taylor Swift API](https://taylor-swift-api.vercel.app) para exibir informações aleatórias sobre músicas da artista, incluindo nome, álbum, duração e letra.
 
-Ao acessar a página inicial, o usuário encontra uma breve apresentação do projeto e um botão **"Explore"**.  
-Ao clicar no botão, o usuário é direcionado para uma página onde uma **música aleatória da Taylor Swift** é exibida.
+### Funcionalidades
 
-As informações exibidas incluem:
+- 🎸 Página inicial com apresentação do projeto
+- 🎲 Geração de música aleatória da Taylor Swift
+- 📝 Exibição completa da letra da música
+- 🔄 Botão para carregar uma nova música aleatória
+- 📱 Design totalmente responsivo (prioridade mobile)
+- 🎨 Interface temática com gradientes personalizados
 
-- 🎶 Nome da música  
-- 💿 Nome do álbum  
-- 🖼️ Capa do álbum  
-- 📅 Ano de lançamento  
+## 🚀 Tecnologias Utilizadas
 
-Também é possível **sortear uma nova música** clicando no botão disponível na página.
+- **HTML5** - Estrutura das páginas
+- **CSS3** - Estilização e responsividade
+- **JavaScript** - Lógica de consumo da API
+- **Fetch API** - Requisições assíncronas
 
----
-
-# 🚀 Tecnologias utilizadas
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-- **HTML5** — Estrutura da aplicação  
-- **CSS3** — Estilização e responsividade  
-- **JavaScript (ES6)** — Consumo da API e manipulação do DOM  
-- **Fetch API** — Requisições HTTP para obtenção dos dados  
-
----
-
-# 🔌 API utilizada
-
-Os dados das músicas são obtidos através da **API pública do iTunes**, que fornece informações sobre artistas, músicas e álbuns.
-
-Endpoint utilizado: https://itunes.apple.com/search?term=taylor+swift&entity=song&limit=50
-
-
-A aplicação realiza uma requisição para a API, recebe os dados em formato **JSON** e seleciona uma música aleatoriamente para exibição.
-
----
-
-# 📂 Estrutura do projeto
-
-/projeto <br>
-│<br>
+## 📦 Estrutura do Projeto
+taylor-swift-app/<br>
 ├── index.html # Página inicial<br>
-├── saida.html # Página que exibe a música sorteada<br>
-├── style.css # Estilos da aplicação<br>
-├── script.js # Consumo da API e lógica do sorteio<br>
-└── /img<br>
-└── banner.jpeg # Imagem utilizada no layout
+├── saida.html # Página de exibição das músicas<br>
+├── style.css # Estilos globais<br>
+├── script.js # Lógica de consumo da API<br>
+└── img/ # Imagens do projeto<br>
+├── banner.jpeg # Imagem da página inicial<br>
+└── 2.jpeg # Imagem da página de música
 
+
+## 🎯 Como Usar
+
+1. Acesse a [página inicial](index.html)
+2. Clique no botão **"Explore"** para começar
+3. Na página de músicas, uma música aleatória será carregada automaticamente
+4. Clique em **"Reload"** para carregar uma nova música aleatória
+
+## 📡 API Utilizada
+
+O projeto consome a [Taylor Swift API](https://taylor-swift-api.vercel.app), uma API pública que fornece:
+
+- Nome da música
+- Álbum de origem
+- Duração
+- Letra completa
+
+Endpoint utilizado: `https://taylor-swift-api.vercel.app/api/songs/random`
+
+## 📱 Responsividade
+
+O layout foi desenvolvido com foco em dispositivos móveis, adaptando-se para diferentes tamanhos de tela:
+
+- **Desktop** (>1024px) - Layout com imagem à direita
+- **Tablet** (768px - 1024px) - Ajustes de fontes e espaçamentos
+- **Mobile** (<768px) - Layout em coluna, conteúdo centralizado
+
+## 🎨 Estilo
+
+- Gradientes personalizados que remetem à estética da Taylor Swift
+- Esquema de cores em tons terrosos e escuros
+- Botões com efeitos hover
+- Área de letra com scroll personalizado
+- Máscaras de imagem para efeitos visuais
+
+## 🚀 Deploy
+
+O projeto está disponível online através do [Netlify/GitHub Pages/Vercel]. 
+[Adicione aqui o link do seu deploy]
+
+## 📋 Pré-requisitos
+
+- Navegador web moderno com suporte a JavaScript
+- Conexão com internet para consumir a API
+
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## ✨ Agradecimentos
+
+- [Taylor Swift API](https://taylor-swift-api.vercel.app) pela disponibilização dos dados
+- Desafio de consumo de API que motivou este projeto
 
 ---
 
-# 📱 Responsividade
-
-O site foi desenvolvido com **media queries** para se adaptar a diferentes tamanhos de tela.
-
-- 💻 Desktop: layout com imagem lateral  
-- 📱 Tablet: ajuste de espaçamento e fontes  
-- 📲 Mobile: layout vertical priorizando a leitura e interação  
-
-O projeto foi pensado com **prioridade para visualização em dispositivos móveis**, conforme solicitado na atividade.
-
----
-
-# 🎯 Objetivo acadêmico
-
-Este projeto foi desenvolvido como parte da atividade **"Desafio 1: Consumo de API - Individual"**, com os seguintes objetivos:
-
-- Desenvolver um aplicativo web simples  
-- Consumir dados de uma **API pública**  
-- Exibir os dados dinamicamente na interface  
-- Criar um **layout responsivo**  
-- Publicar o projeto em um **repositório público**  
-
----
-
-# 👨‍💻 Autor
-
-Projeto desenvolvido por Thauan Bezerra como atividade acadêmica.
+Desenvolvido como solução para o desafio de consumo de API
