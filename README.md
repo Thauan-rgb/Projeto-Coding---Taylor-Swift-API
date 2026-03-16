@@ -1,7 +1,5 @@
 # Taylor Swift Random Song 🎵
 
-![Taylor Swift](img/banner.jpeg)
-
 Um aplicativo web simples e responsivo que consome uma API pública para exibir músicas aleatórias da Taylor Swift. Desenvolvido como solução para o desafio de consumo de API.
 
 ## 📱 Sobre o Projeto
@@ -71,8 +69,7 @@ O layout foi desenvolvido com foco em dispositivos móveis, adaptando-se para di
 
 ## 🚀 Deploy
 
-O projeto está disponível online através do [Netlify/GitHub Pages/Vercel]. 
-[Adicione aqui o link do seu deploy]
+O projeto está disponível online através do (https://taylor-swift-coding.netlify.app/)
 
 ## 📋 Pré-requisitos
 
