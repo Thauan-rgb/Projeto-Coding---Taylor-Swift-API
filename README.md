@@ -35,7 +35,7 @@ taylor-swift-app/<br>
 
 ## 🎯 Como Usar
 
-1. Acesse a [página inicial](index.html)
+1. Acesse (https://taylor-swift-coding.netlify.app/).
 2. Clique no botão **"Explore"** para começar
 3. Na página de músicas, uma música aleatória será carregada automaticamente
 4. Clique em **"Reload"** para carregar uma nova música aleatória
