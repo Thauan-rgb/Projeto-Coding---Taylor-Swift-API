@@ -1,0 +1,48 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Taylor Swift Songs",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Taylor Swift",
+  "start_url": "./index.html",
+  "theme_color": "#000000",
+  "description": "Receba uma música da Taylor aleatória",
+  "lang": "en",
+  "categories": [
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "img/taylor_icon48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "img/taylor_icon72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/taylor_icon96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/taylor_icon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/taylor_icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/taylor_icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
