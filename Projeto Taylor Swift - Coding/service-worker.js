@@ -13,7 +13,7 @@ const urlsToCache = [
   "/img/taylor_icon144.png",
   "/img/taylor_icon192.png",
   "/img/taylor_icon512.png",
-  "/img/banner.jpeg",
+  "/img/b.jpeg",
   "/img/2.jpeg"
 ];
 
